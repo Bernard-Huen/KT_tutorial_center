@@ -1,0 +1,233 @@
+css<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <meta name="author" content="John Chow">
+    <title>KT Tutorial Center</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-flex">
+            <!-- <div class="logo-brand"> -->
+            <img src="images/logo.jpeg" alt="logo" class="logo " />
+            <h2 class="brand-name"></h2>
+            <!-- </div> -->
+            <!-- desktop menu -->
+             <div class="main-menu">
+                <ul class="main-menu-list">
+                    <li class="ex-last"><a href="index.html">Home</a></li>
+                    <li class="ex-last"><a href="about_us.html">關於KT Tutorial Center</a></li>
+                    <li class="ex-last"><a href="teachers.html">名師團隊</a></li>
+                    <li class="ex-last"><a href="products.html">課程一覽</a></li>
+                    <li class="ex-last"><a href="booking.html">網上報名</a></li>
+                    <li class="ex-last"><a href="comments.html">學生家長好評</a></li>
+                    <li class="ex-last"><a href="strategy.html">備試全攻略</a></li>
+                    <li><a href="questions.html">常見問題</a></li>
+                </ul>
+                <ul class="main-menu-list">
+                    <li class="ex-last"><a href="map.html">聯絡我們</a></li>
+                    <li class="ex-last"><a href="activity.html">學生活動</a></li>
+                    <li class="ex-last"><a href="source.html">資源中心</a></li>
+                    <li class="ex-last"><a href="event.html">報堂優惠</a></li>
+                    <li class="ex-last"><a href="career.html">名師招聘/合作</a></li>
+                    <li class="ex-last"><a href="news.html">媒體訪問</a></li>
+                    <li><a href="notice.html">通告</a></li>
+                </ul>
+             </div>
+                    <!-- mobile menu -->
+            <div class="mobile-menu">
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+            <div class="mobile-menu-items">
+                <ul class="mobile-menu-list">
+                    <li><a href="index.html">Home</a>  <a href="about_us.html">| 關於KT Tutorial Center</a></li>
+                    <li><a href="teachers.html">名師團隊</a>  <a href="products.html">| 課程一覽</a></li>
+                    <li><a href="booking.html">網上報名</a>  <a href="comments.html">| 學生家長好評</a></li>
+                    <li><a href="strategy.html">備試全攻略</a>  <a href="questions.html">| 常見問題</a></li>
+                    <li><a href="map.html">聯絡我們</a>  <a href="activity.html">| 學生活動</a></li>
+                    <li><a href="source.html">資源中心</a>  <a href="event.html">| 報堂優惠</a></li>
+                    <li><a href="career.html">名師招聘/合作</a>  <a href="news.html">| 媒體訪問</a></li>
+                    <l><a href="notice.html">通告</a>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+<!------------------------------>
+<!-- Input Your Content Below -->
+<!------------------------------>
+
+<p>
+            
+        </p>    
+
+        <!-- Header -->
+         <div class="hero">
+         <header class="header">
+            <h1 class="good-start">網上報名</h1>
+         </header>
+
+         <div class="content-style1">
+
+            <!-- Introduction -->
+            <br/>
+            <h3 class="content-title">登記程序：</h3>
+            <ul>
+                <li>1. 於開始報名日期後聯絡本中心職員查詢剩餘學額</li>
+                <li>2. 閱讀《報名須知》後填妥以下登記表，或致電/Whatsapp 54400044 或親臨本中心報名處辦理</li>
+                <li>3. ​於收到確認電話/Whatsapp回覆後透過以下方法繳付學費以確認報讀，如未繳付學費，本中心不會保留學位</li>
+                <li>4. 交易完成後把入數紙/轉帳紀錄 Whatsapp 至 54400044</li>
+                <li>5. 完成繳費後，本中心職員會透過 Whatsapp 與閣下確認，同學可於首課當天直接前往本中心上課</li>
+            </ul>
+            <br/>
+
+            <!-- Input Form -->
+             <h3 class="content-title">登記 2024-25 補習課程</h3>
+            <p><span class="red-font">*</span> 表示必填欄位</p>
+            <br/>
+
+            <form  method="get">
+                <!-- Input Form left side -->
+                <div class="inputs-area">
+                    <div class="input-unit">
+                        <p>學生姓名 <span class="red-font">*</span></p>
+                        <input class="input-lengthS" type="text" id="name" name="name">
+                        <p>&nbsp</p>
+                        <p>聯絡電話 <span class="red-font">*</span></p>
+                        <input class="input-lengthS" type="text" id="tel" name="tel">
+                        <p>&nbsp</p>
+                        <p>報讀學科 <span class="red-font">*</span></p>
+                        <!-- Eng checkboxes -->
+                        <input type="checkbox" id="courseE1" name="courseE1" value="courseE1">
+                        <label for="courseE1">DSE 英文補習【皇牌極速精華課程】</label><br>
+                        <input type="checkbox" id="courseE2" name="courseE2" value="courseE2">
+                        <label for="courseE1">高中英文補習【All-in-one 全方位應試課程】</label><br>
+                        <input type="checkbox" id="courseE3" name="courseE3" value="courseE3">
+                        <label for="courseE1">初中英文補習【進階精英特訓課程】</label><br>
+                        <input type="checkbox" id="courseE4" name="courseE4" value="courseE4">
+                        <label for="courseE1">初中英文補習【進階精英特訓課程】</label><br>
+                        <!-- Chi checkboxes -->
+                        <input type="checkbox" id="courseC1" name="courseC1" value="courseC1">
+                        <label for="courseE1">進研教育【高中常規中文補習課程】</label><br>
+                        <input type="checkbox" id="courseC2" name="courseC2" value="courseC2">
+                        <label for="courseE1">進研教育【DSE常規中文補習課程】</label><br>
+                        <input type="checkbox" id="courseC3" name="courseC3" value="courseC3">
+                        <label for="courseE1">進研教育【進階常規中文補習課程】</label><br>
+                        <!-- Math checkboxes -->
+                        <input type="checkbox" id="courseM1" name="courseM1" value="courseM1">
+                        <label for="courseE1">中學數學補習【DSE極速精華課程】</label><br>
+                        <input type="checkbox" id="courseM2" name="courseM2" value="courseM2">
+                        <label for="courseE1">中學數學補習【DSE全方位深造課程】</label><br>
+                        <p>&nbsp</p>
+                        <!-- button class="input-btn" type="submit" onclick="formEnd()">提交</!-->
+                        <button class="input-btn" type="submit">提交</button>
+                    </div>
+
+                    <!-- Input Form right side -->            
+                    <div class="inputs-area">
+                        <div class="input-unit">
+                            <p>升讀年級</p>
+                            <select class="input-combo" name="level" id="level">
+                                <option value="F1">中一</option>
+                                <option value="F2">中二</option>
+                                <option value="F3">中三</option>
+                                <option value="F4">中四</option>
+                                <option value="F5">中五</option>
+                                <option value="F6">中六</option>
+                            </select>
+                            <p>&nbsp</p>
+                            <p>就讀學校</p>
+                            <input class="input-lengthL" type="text" id="school" name="school">
+                            <p>&nbsp</p>
+                            <p>電郵地址</p>
+                            <input class="input-lengthL" type="text" id="email" name="email">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+ 
+<!------------------------------>
+<!-- Keep Your Content Above -->
+<!------------------------------>
+
+               <footer class="footer-content">
+                <div class="footer-icons">
+                    <ul class="nav-icon-list">
+                        <li><a href="tel:+85222222222" class="nav-icon"><i class="fa-solid fa-phone"></i></a></li>
+                        <li><a href="https://web.whatsapp.com" class="nav-icon"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="mailto:abc@abc.com" class="nav-icon"><i class="fa-regular fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+               <footer class="footer-content">                    copyright &copy; 2024 all right reserved<br><br>
+                </p>
+            </footer>
+            </div>        
+    </nav
+    >
+<script>
+    const form = document.querySelector('form'); 
+    
+    form.addEventListener('submit', function(event) {
+        
+        let OK = true;
+
+        /* check name */
+        var name = document.getElementById('name').value;
+        if (name == "") {
+            confirm("請輸入學生姓名!");
+            OK = false;
+        };
+
+        /* check telephone */
+        var tel = document.getElementById('tel').value;
+        if (tel == "") {
+            confirm("請輸入聯絡電話!");
+            OK = false;
+        };
+
+        /* check if course selected */
+        if (!document.getElementById('courseE1').checked &&
+            !document.getElementById('courseE2').checked &&
+            !document.getElementById('courseE3').checked &&
+            !document.getElementById('courseE4').checked &&
+            !document.getElementById('courseC1').checked &&
+            !document.getElementById('courseC2').checked &&
+            !document.getElementById('courseC3').checked &&
+            !document.getElementById('courseM1').checked &&
+            !document.getElementById('courseM2').checked) {
+            confirm('請選擇報讀學科!');
+            OK = false;
+        };
+
+        /* final see if form input success */
+        if (OK == false) {
+            event.preventDefault();
+        } else {
+            confirm("已成功登記，我們會盡快聯絡你。謝謝！");
+        };
+    }); 
+            /* name.value = "";
+            tel.value = "";
+            school.value = "";
+            email.value = "";
+            level.text.clear();
+            courseE1.checked = false;
+            courseE2.checked = false;
+            courseE3.checked = false;
+            courseE4.checked = false;
+
+            courseC1.checked = false;
+            courseC2.checked = false;
+            courseC3.checked = false;
+
+            courseM1.checked = false;
+            courseM2.checked = false; */
+</script>
+</body>
+</html>

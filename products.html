@@ -1,0 +1,388 @@
+css<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <meta name="author" content="John Chow">
+    <title>KT Tutorial Center</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container navbar-flex">
+            <!-- <div class="logo-brand"> -->
+            <img src="images/logo.jpeg" alt="logo" class="logo " />
+            <h2 class="brand-name"></h2>
+            <!-- </div> -->
+            <!-- desktop menu -->
+             <div class="main-menu">
+                <ul class="main-menu-list">
+                    <li class="ex-last"><a href="index.html">Home</a></li>
+                    <li class="ex-last"><a href="about_us.html">關於KT Tutorial Center</a></li>
+                    <li class="ex-last"><a href="teachers.html">名師團隊</a></li>
+                    <li class="ex-last"><a href="products.html">課程一覽</a></li>
+                    <li class="ex-last"><a href="booking.html">網上報名</a></li>
+                    <li class="ex-last"><a href="comments.html">學生家長好評</a></li>
+                    <li class="ex-last"><a href="strategy.html">備試全攻略</a></li>
+                    <li><a href="questions.html">常見問題</a></li>
+                </ul>
+                <ul class="main-menu-list">
+                    <li class="ex-last"><a href="map.html">聯絡我們</a></li>
+                    <li class="ex-last"><a href="activity.html">學生活動</a></li>
+                    <li class="ex-last"><a href="source.html">資源中心</a></li>
+                    <li class="ex-last"><a href="event.html">報堂優惠</a></li>
+                    <li class="ex-last"><a href="career.html">名師招聘/合作</a></li>
+                    <li class="ex-last"><a href="news.html">媒體訪問</a></li>
+                    <li><a href="notice.html">通告</a></li>
+                </ul>
+             </div>
+                    <!-- mobile menu -->
+            <div class="mobile-menu">
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+            <div class="mobile-menu-items">
+                <ul class="mobile-menu-list">
+                    <li><a href="index.html">Home</a>  <a href="about_us.html">| 關於KT Tutorial Center</a></li>
+                    <li><a href="teachers.html">名師團隊</a>  <a href="products.html">| 課程一覽</a></li>
+                    <li><a href="booking.html">網上報名</a>  <a href="comments.html">| 學生家長好評</a></li>
+                    <li><a href="strategy.html">備試全攻略</a>  <a href="questions.html">| 常見問題</a></li>
+                    <li><a href="map.html">聯絡我們</a>  <a href="activity.html">| 學生活動</a></li>
+                    <li><a href="source.html">資源中心</a>  <a href="event.html">| 報堂優惠</a></li>
+                    <li><a href="career.html">名師招聘/合作</a>  <a href="news.html">| 媒體訪問</a></li>
+                    <l><a href="notice.html">通告</a>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+<!------------------------------>
+<!-- Input Your Content Below -->
+<!------------------------------>
+
+<p>
+</p>    
+
+        <!-- Header -->
+         <div class="hero">
+         <header class="header">
+            <h1 class="good-start">課程一覽</h1>
+         </header>
+
+         <!-- Buttons -->
+         <div class="btn-area">
+            <a href="#section-eng">
+                <button class="btn">英文補習</button>
+            </a>
+            <a href="#section-chi">
+                <button class="btn">中文補習</button>
+            </a>
+            <a href="#section-math">
+                <button class="btn">數學補習</button>
+            </a>
+        </div>
+
+        <!------------------------------->
+        <!-- 英文補習 --->
+        <!------------------------------->
+
+        <h2 class="section-name" id="section-eng">英文補習課程介紹</h2>
+        <div class="courses-area">
+
+            <!-- course 1 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">1. DSE 英文補習【皇牌極速精華課程】</p>
+                <br/>
+                <p>課程：E-RC-D3</p>
+                <p>對象：中六及自修生</p>
+                <br/>
+                <p>此課程專為短期內即將會應考中學文憑試 HKDSE 的同學而設，課程內容包括英文文法、寫作、閱讀、聆聽、綜合及說話技巧，同時讓同學清楚了解考試模式及各卷評分準則，務求以最短的時間達致最大的成果，幫助同學克服英文科的障礙，考入心儀大學。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('eng1bDIV')">課堂時間</button>
+                <div id="eng1bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('eng1cDIV')">學費資訊</button>
+                <div id="eng1cDIV" class="content-area">
+                    <p>$1160 / 四堂 (每期額外加送兩堂考試技巧特訓班)</p>
+                </div>
+            </div>
+
+            <!-- course 2 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">2. 高中英文補習【All-in-one 全方位應試課程】</p>
+                <br/>
+                <p>課程：E-RC-D1/D2</p>
+                <p>對象：中四至中五</p>
+                <br/>
+                <p>此課程為中四至中五同學而設，重點教授中學文憑試 HKDSE 應試技巧，幫助同學克服英文科的障礙，考入心儀的大學。補習課程內容包括英文文法、寫作、閱讀、聆聽、口說及綜合技巧，協助同學以最短的時間達致最大的成果。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('eng2bDIV')">課堂時間</button>
+                <div id="eng2bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('eng2cDIV')">學費資訊</button>
+                <div id="eng2cDIV" class="content-area">
+                    <p>$1160 / 四堂 (每期額外加送兩堂考試技巧特訓班)</p>
+                </div>
+            </div>
+
+            <!-- course 3 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">3. 初中英文補習【進階精英特訓課程】</p>
+                <br/>
+                <p>課程：E-RC-J3</p>
+                <p>對象：中二至中三</p>
+                <br/>
+                <p>此課程專為中三及能力較高的中二同學而設，以句構學為基礎，重溫並強化同學對整個初中英文文法課題的認識，再應用於寫作卷當中。補習課程內容包括英文文法、寫作、閱讀、聆聽、綜合技巧及說話技巧，並加入中學文憑試 HKDSE 程度之題目及練習，讓同學預早接觸公開試題型，為升上高中作好準備。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('eng3bDIV')">課堂時間</button>
+                <div id="eng3bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('eng3cDIV')">學費資訊</button>
+                <div id="eng3cDIV" class="content-area">
+                    <p>$1120 / 四堂</p>
+                </div>                
+            </div>
+
+            <!-- course 4 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">4. 初中英文補習【基礎技巧實戰課程】</p>
+                <br/>
+                <p>課程：E-RC-J1/J2</p>
+                <p>對象：中一至中二</p>
+                <br/>
+                <p>此課程為中一至中二同學而設，旨在強化同學對語文系統及初中考試的掌握，以香港中學文憑試 HKDSE 為藍本，重點教授校內試的應試技巧及溫習方法，同時讓同學清楚了解中學考試模式及各卷評分準則。補習課程內容包括英文文法、寫作、閱讀、聆聽、綜合技巧及說話技巧，使同學能溫故知新，無縫涵接中學課程。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('eng4bDIV')">課堂時間</button>
+                <div id="eng4bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('eng4cDIV')">學費資訊</button>
+                <div id="eng4cDIV" class="content-area">
+                    <p>$1120 / 四堂</p>
+                </div>                
+            </div>
+
+        </div>
+
+        <!------------------------------->
+        <!-- 中文補習 --->
+        <!------------------------------->
+
+        <h2 class="section-name" id="section-chi">中文補習課程介紹</h2>
+        <div class="courses-area">
+
+            <!-- course 1 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">1. 進研教育【高中常規中文補習課程】</p>
+                <br/>
+                <p>課程：C-RC-D1</p>
+                <p>​對象：中四至中六、自修生</p>
+                <br/>
+                <p>課堂涵蓋閱讀、寫作及實用文，概念技巧並重。課程深入淺出，思維、技巧兼授；正本清源，讓學生以實力駕馭文憑試。課程更提供免費作文批改，確保一星期內改完發回，並附有詳盡評語。我們希望同學把握兩年時間，深化基礎語文知識，為高中中文課程做好準備；深化四卷能力，鞏固語文根基，釐清應試概念及技巧，並提升語文能力，以扎實中文底蘊應付文憑試。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('chi1bDIV')">課堂時間</button>
+                <div id="chi1bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('chi1cDIV')">學費資訊</button>
+                <div id="chi1cDIV" class="content-area">
+                    <p>$1160 / 四堂 (每期額外加送兩堂考試技巧特訓班)</p>
+                </div>
+            </div>
+
+            <!-- course 2 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">2. 進研教育【DSE常規中文補習課程】</p>
+                <br/>
+                <p>課程：C-RC-D2/D3</p>
+                <p>​對象：中五至中六</p>
+                <br/>
+                <p>中文補習課程涵蓋閱讀、寫作及實用文，概念技巧並重。課程深入淺出，思維、技巧兼授；正本清源，讓學生以實力駕馭文憑試。課程更提供免費作文批改，確保一星期內改完發回，並附有詳盡評語。中六時間緊湊，但我們仍然會把四卷的重要思維和技巧一一教授。我們希望同學把握最後半年時間，深化基礎語文知識，以扎實的中文底蘊應付文憑試。</p>
+                <br/>
+
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('chi2bDIV')">課堂時間</button>
+                <div id="chi2bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('chi2cDIV')">學費資訊</button>
+                <div id="chi2cDIV" class="content-area">
+                    <p>$1160 / 四堂 (每期額外加送兩堂考試技巧特訓班)</p>
+                </div>
+            </div>
+
+            <!-- course 3 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">3. 進研教育【進階常規中文補習課程】</p>
+                <br/>
+                <p>課程：E-RC-J3</p>
+                <p>對象：中二至中三</p>
+                <br/>
+                <p>此課程專為中三及能力較高的中二同學而設，以句構學為基礎，重溫並強化同學對整個初中英文文法課題的認識，再應用於寫作卷當中。補習課程內容包括英文文法、寫作、閱讀、聆聽、綜合技巧及說話技巧，並加入中學文憑試 HKDSE 程度之題目及練習，讓同學預早接觸公開試題型，為升上高中作好準備。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('chi3bDIV')">課堂時間</button>
+                <div id="chi3bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('chi3cDIV')">學費資訊</button>
+                <div id="chi3cDIV" class="content-area">
+                    <p>$1120 / 四堂</p>
+                </div>                
+            </div>
+
+        </div>
+
+        <!------------------------------->
+        <!-- 數學補習老師團隊 --->
+        <!------------------------------->
+
+        <h2 class="section-name" id="section-math">數學補習課程介紹</h2>
+        <div class="courses-area">
+
+            <!-- course 1 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">1. 中學數學補習【DSE極速精華課程】</p>
+                <br/>
+                <p>課程：C-RC-D1</p>
+                <p>​對象：中四至中六、自修生</p>
+                <br/>
+                <p>課堂涵蓋閱讀、寫作及實用文，概念技巧並重。課程深入淺出，思維、技巧兼授；正本清源，讓學生以實力駕馭文憑試。課程更提供免費作文批改，確保一星期內改完發回，並附有詳盡評語。我們希望同學把握兩年時間，深化基礎語文知識，為高中中文課程做好準備；深化四卷能力，鞏固語文根基，釐清應試概念及技巧，並提升語文能力，以扎實中文底蘊應付文憑試。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('mat1bDIV')">課堂時間</button>
+                <div id="mat1bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('mat1cDIV')">學費資訊</button>
+                <div id="mat1cDIV" class="content-area">
+                    <p>$1160 / 四堂 (每期額外加送兩堂考試技巧特訓班)</p>
+                </div>
+            </div>
+
+            <!-- course 2 -->
+            <!--------------> 
+            <div class="course-unit">
+                <p class="course-name">2. 中學數學補習【DSE全方位深造課程】</p>
+                <br/>
+                <p>課程：C-RC-D2/D3</p>
+                <p>​對象：中五至中六</p>
+                <br/>
+                <p>中文補習課程涵蓋閱讀、寫作及實用文，概念技巧並重。課程深入淺出，思維、技巧兼授；正本清源，讓學生以實力駕馭文憑試。課程更提供免費作文批改，確保一星期內改完發回，並附有詳盡評語。中六時間緊湊，但我們仍然會把四卷的重要思維和技巧一一教授。我們希望同學把握最後半年時間，深化基礎語文知識，以扎實的中文底蘊應付文憑試。</p>
+                <br/>
+
+                <!-- button 2 -->
+                <button class="course-btn" onclick="btnContent('mat2bDIV')">課堂時間</button>
+                <div id="mat2bDIV" class="content-area">
+                    <p>本課程合共 36 堂，一星期一堂，每堂 1 小時 15 分鐘</p>
+                </div>
+
+                <!-- button 3 -->
+                <button class="course-btn" onclick="btnContent('mat2cDIV')">學費資訊</button>
+                <div id="mat2cDIV" class="content-area">
+                    <p>$1160 / 四堂 (每期額外加送兩堂考試技巧特訓班)</p>
+                </div>
+            </div>
+        </div>
+
+
+
+<!------------------------------>
+<!-- Keep Your Content Above -->
+<!------------------------------>
+
+               <footer class="footer-content">
+                <div class="footer-icons">
+                    <ul class="nav-icon-list">
+                        <li><a href="tel:+85222222222" class="nav-icon"><i class="fa-solid fa-phone"></i></a></li>
+                        <li><a href="https://web.whatsapp.com" class="nav-icon"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="mailto:abc@abc.com" class="nav-icon"><i class="fa-regular fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+               <footer class="footer-content">                    copyright &copy; 2024 all right reserved<br><br>
+                </p>
+            </footer>
+            </div>        
+    </nav>
+
+<script>
+    function initContent(valueDIV) {
+        var x = document.getElementById(valueDIV);
+        x.style.display = "none";
+    }
+    initContent('eng1bDIV');
+    initContent('eng1cDIV');
+    initContent('eng2bDIV');
+    initContent('eng2cDIV');
+    initContent('eng3bDIV');
+    initContent('eng3cDIV');
+    initContent('eng4bDIV');
+    initContent('eng4cDIV');
+
+    initContent('chi1bDIV');
+    initContent('chi1cDIV');
+    initContent('chi2bDIV');
+    initContent('chi2cDIV');
+    initContent('chi3bDIV');
+    initContent('chi3cDIV');
+
+    initContent('mat1bDIV');
+    initContent('mat1cDIV');
+    initContent('mat2bDIV');
+    initContent('mat2cDIV');
+
+    function btnContent(valueDIV) {
+        var x = document.getElementById(valueDIV);
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+    }
+</script>
+
+<script src="index.js"></script>
+</body>
+</html>
